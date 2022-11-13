@@ -1,0 +1,44 @@
+<link rel = 'stylesheet' href = 'styles.css'>
+   
+  <body>
+  <div class = 'total' id = 'tti'>
+  <div class = 'tipcalc'>
+  <p>Bill total</p>
+  <p>
+    <label for ='bill total'>Rs.</label>
+    <input onkeyup = 'calculatebill()'
+           type = 'text'
+           id = 'bill' 
+           name = 'bill'
+           placeholder = 0.00
+           required>
+  </p>
+    <p>Tip</p>
+  <p>
+    <label for ='tip'>%</label>
+    <input onkeyup = 'calculatebill()'
+           type = 'text'
+           id = 'tip' 
+           name = 'tip'
+           placeholder = 0.00
+           required>
+  </p>
+    <div class = 'flex'>
+      <div>
+<p class = 'text'>Person</p>
+  <button type = 'button1' onclick = 'increasepeople()'>+</button>
+       <span class = 'person' id = 'person'>1</span>
+   <button type = 'button2' onclick = 'decreasepeople()'>-</button>
+      </div>
+      <div>
+  <p class = 'total1'>Total per person</p>
+  <p class = 'total2' id = 'total2'>Rs. 0.00</p>
+  </div>
+    </div>
+    </div>
+  </div>
+    <script type = 'text/javascript' src = 'script.js'></script>
+  
+  
+  
+  
