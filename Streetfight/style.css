@@ -1,0 +1,60 @@
+* {
+    background: cornsilk;
+}
+audio{
+ display:hidden;
+}
+button {
+    border-radius: 10px;
+}
+.final{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   gap:1rem;
+   font-size:2rem;
+}
+h2,
+h1 {
+    text-align: center;
+} 
+
+img {
+    width: 130px;
+    height: auto;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.one p {
+    display: inline-block;
+}
+
+.players {
+    display: flex;
+    justify-content: space-evenly;
+    margin: .5rem;
+}
+
+.player1,
+.player2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+   width:100px;
+   height:40px;
+   font-size:1.3rem;
+}
+.score1,
+.score2 {
+    font-size: 2.5rem;
+    margin: .5rem;
+}
+.two p {
+    display: inline-block;
+}

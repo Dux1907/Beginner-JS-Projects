@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fighting Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Street Fight</h1>
+    <div class='players'>
+        <div class='player1'>
+            <h2>Kartik</h2>
+            <img src='https://i.gifer.com/origin/00/0019f6845ceaa9347b881ccbe8f5644a_w200.gif'>
+            <div class='one'>
+                <p>Q:</p>
+                <button id='attack1'>Attack</button>
+            </div>
+            <div class='two'>
+                <p>A:</p>
+                <button id='heal1'>Heal</button>
+            </div>
+            <p id='score1' class='score1'>100</p>
+        </div>
+        <div class='player2'>
+            <h2>Rohit</h2>
+            <img
+                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.acidcow.com%2Fpics%2F20181120%2Fvideo_game_characters_14.gif&f=1&nofb=1&ipt=07cdcf7bfd58a756223b0d9d1908595f0795ab88cc177a2c93c296467a8ec36d&ipo=images'>
+            <div class='one'>
+                <p>P:</p>
+                <button id='attack2'>Attack</button>
+            </div>
+            <div class='two'>
+                <p>L:</p>
+                <button id='heal2'>Heal</button>
+            </div>
+            <p id='score2' class='score2'>100</p>
+        </div>
+    </div>
+    <div class='final'>
+        <div id='result' class='result'></div>
+        <button id='reset' class='reset'>Reset</button>
+    </div>
+  <audio src = 'sounds/fastheal.mp3' id = 'hheal1'></audio>
+  <audio src = 'sounds/fastpunch.mp3' id = 'aattack1'></audio>
+  <audio src = 'sounds/quickheal.mp3' id = 'hheal2'></audio>
+  <audio src = 'sounds/quickhit.mp3' id = 'aattack2'></audio>
+  <audio src = 'sounds/victory.mp3' id = 'victory'></audio>
+  
+</body>
+<script src="script.js"></script>
+
+</html>
