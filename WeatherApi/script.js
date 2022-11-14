@@ -40,11 +40,12 @@ submit.onclick = () => {
     let city = input.value;
      weather(city);
 }
+
 document.addEventListener('keydown', function (e) {
     if (e.key == 'Enter') {
             let input = document.getElementById('input');
             let city = input.value;
              weather(city);
-    }
+    }    
 })
     
