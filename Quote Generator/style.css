@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+body{
+    height:100vh;
+    background-color: #6495ed;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.card{
+    height:45vh;
+    width:80vw;
+    background-color: white;
+    box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:space-around;
+    border-radius: 10px;
+}
+.card_upper{
+    height:65%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.card_quote{
+    height:100%;
+    width:90%;
+    background-color: coral;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+    padding:1rem;
+}
+.card_lower{
+    display:flex;
+    justify-content: space-around;
+}
+button{
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    background-color:mediumturquoise;
+    font-size:1rem;
+    font-family: 'Source Serif Pro', serif;
+}
