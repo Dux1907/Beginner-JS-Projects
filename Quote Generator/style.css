@@ -1,25 +1,25 @@
-*{
-    box-sizing: border-box;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 body{
     height:100vh;
-    background-color: #6495ed;
+    background-color: #C9DBEE;
     display:flex;
     justify-content: center;
     align-items:center;
 }
 .card{
-    height:45vh;
-    width:80vw;
-    background-color: white;
-    box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px white,
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    min-height:40vh;
+    min-width:60vw;
+    max-height:1000vh;
+    max-width:80vw;
+    box-shadow: 0 10px 10px 10px rgba(100,255,255,0.3);
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:space-around;
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: #112a46;
+    gap:2rem;
 }
 .card_upper{
     height:65%;
@@ -30,14 +30,13 @@ body{
 .card_quote{
     height:100%;
     width:90%;
-    background-color: coral;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
+    color:whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Source Serif Pro', serif;
-    padding:1rem;
 }
 .card_lower{
     display:flex;
