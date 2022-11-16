@@ -37,6 +37,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Source Serif Pro', serif;
+    padding:1rem;
 }
 .card_lower{
     display:flex;
