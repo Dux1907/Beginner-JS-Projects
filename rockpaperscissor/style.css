@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#1F3F61;
+}
+#buttons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:1rem;
+  margin-top:11em;
+}
+body{
+  height:100vh;
+}
+.name{
+  background-color:cornsilk;
+  width:17em;
+  height:17em;
+  display:grid;
+  place-content:center;
+}
+span{
+  font-size:5em;
+}
+.reset{
+  font-size:2rem;
+  padding:2rem;
+  margin-left:27rem;
+  border-radius:10px;
+}
+.resultcontainer{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-size:3rem;
+  padding:2rem;
+}
+

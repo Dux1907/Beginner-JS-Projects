@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <main>
+   <div id = 'buttons'>
+     <button id = 'rock' class = 'name' onclick = calculaterock()>
+       <span>🪨</span>
+     </button>
+     <button id = 'paper' class = 'name' onclick = calculatepaper()>
+       <span>🔖</span>
+     </button>
+     <button id = 'scissor' class = 'name' onclick = calculatescissor()>
+       <span>✂️</span>
+     </button>
+   </div>
+   <div id = 'resultcontainer' class = 'resultcontainer'>
+     <div class = 'score' id = 'score'></div>
+     <div class = 'hand' id = 'hand'></div>
+     <div class = 'result' id = 'result'></div>
+   </div>
+     <div>
+       <button id = 'reset' class ='reset' onclick = reset()>Reset</div>
+     </div>
+ </main>
+  
+  <script src="script.js"></script>
+
+</body>
+
+</html>
