@@ -1,10 +1,11 @@
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing:border-box;
-}
+} */
 body{
-  background-color:#1F3F61;
+  background-color:whitesmoke;
+  height:100vh;
 }
 .buttonreset{
   display:flex;
@@ -17,19 +18,14 @@ body{
   gap:5rem;
   margin-top:11em;
 }
-body{
-  height:100vh;
-}
 .name{
-  background-color:cornsilk;
+  background-color:rgb(0, 0, 0);
   width:200px;
   height:200px;
+  border:solid;
   border-radius:50%;
   display:grid;
   place-content:center;
-}
-span{
-  font-size:5em;
 }
 .reset{
   font-size:1.7rem;
@@ -37,11 +33,13 @@ span{
   border-radius:30px;
 }
 .resultcontainer{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+  text-align:center;
   font-size:3rem;
   padding:2rem;
 }
+span{
+  font-size:5em;
+}
+
+
 
