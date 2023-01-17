@@ -1,0 +1,9 @@
+
+body{
+    display:flex;
+    justify:center;
+}.container{
+    height:100vh;
+    width:20vh;
+    border: 1px solid red;
+}
