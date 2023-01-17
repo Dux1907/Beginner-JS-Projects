@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href='style.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-content-center min-vh-100 ">
+            <div class=" calculator col-lg-4 col-md-6 col-sm-8 col-10 border border-2 border-dark bg-body-tertiary p-xl-4 p-sm-3 p-2">
+                <h1 class = 'text-center mt-1 mb-3 fs-1'>Calculator</h1>
+                <div class="row text-center">
+                      <div class="col-12 my-3">
+                        <input type = 'text' class = 'text w-100' id = 'text' placeholder = 'Do some stuff!'>
+                      </div>  
+                      <div class="col-3">
+                        <p id = 'c' style = 'background-color: #505050;'>C</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'negative' style = 'background-color: #505050;'>+/-</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'mod' style = 'background-color: #505050;'onclick="addString(this.innerText)">%</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'divide' onclick="addString(this.innerText)" style = 'background-color: #ff9500;'>/</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'seven' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">7</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'eight' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">8</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'nine' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">9</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'multiply' onclick="addString(this.innerText)" style = 'background-color: #ff9500;'>*</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'four' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">4</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'five' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">5</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'six' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">6</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'subtract' onclick="addString(this.innerText)" style = 'background-color: #ff9500;'>-</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'one' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">1</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'two' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">2</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'three' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">3</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'add' onclick="addString(this.innerText)" style = 'background-color: #ff9500;'>+</p>
+                      </div>
+                      <div class="col-6">
+                        <p id = 'zero' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">0</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'decimal' onclick="addString(this.innerText)" style = "background-color: #D4D4D2;">.</p>
+                      </div>
+                      <div class="col-3">
+                        <p id = 'equals' style = 'background-color: #ff9500;'>=</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src='script.js'>
+
+    </script>
+</body>
+
+</html>
