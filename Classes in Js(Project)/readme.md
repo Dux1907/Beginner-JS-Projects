@@ -16,7 +16,7 @@ Visibility: Public or private.</p>
 A constructor can use the super keyword to call the constructor of the super class.
 
 </p>
-
+<h2>Project Overview</h2>
 <ul>
   <li>JS classes implementation is done using a Bank project where you can deposit and withdraw your money.</li>
   <li>Classes, constructors and methods are used.</li>
